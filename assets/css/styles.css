@@ -1,0 +1,95 @@
+label[for="payment_method_dalenys"] {
+    display: flex !important;
+}
+
+label[for="payment_method_dalenys"] img {
+    height: 24px;
+    margin-left: auto;
+}
+
+.payment_method_dalenys p.expiry-container-wrap {
+    width: calc(50% - 5px);
+}
+
+.payment_method_dalenys p,
+.payment_method_dalenys p label {
+    display: block;
+    width: 100%;
+}
+
+.payment_method_dalenys p:nth-child(1) {
+    position: relative;
+}
+
+.payment_method_dalenys input[type=text] {
+    display: inline-block;
+    max-width: 100%;
+    height: 2em;
+    overflow: hidden;
+    box-sizing: border-box;
+    margin-top: 7px;
+    padding: 5px 7px 3px 7px;
+    border: 1px solid rgba(0, 0, 0, .5);
+    /*border-radius: 5px;*/
+    transition: all 250ms ease-in-out;
+    width: 100%;
+    background-color: #fff;
+}
+
+.payment_method_dalenys .input-container {
+    display: inline-block;
+    max-width: 100%;
+    height: 2em;
+    overflow: hidden;
+    box-sizing: border-box;
+    margin-top: 7px;
+    padding: 5px 7px 3px 7px;
+    border: 1px solid rgba(0, 0, 0, .5);
+    /*border-radius: 5px;*/
+    transition: all 250ms ease-in-out;
+}
+
+.payment_method_dalenys #brand-container {
+    position: absolute;
+    top: 28px;
+    right: 0;
+    display: inline-block;
+    width: 70px;
+    max-width: 100%;
+    height: 160px;
+    overflow: hidden;
+    box-sizing: border-box;
+    margin-top: 7px;
+}
+
+div.payment_method_dalenys {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.payment_method_dalenys #card-container {
+    width: 100%;
+}
+
+.payment_method_dalenys #expiry-container,
+.payment_method_dalenys #cvv-container {
+    width: 100%;
+}
+
+.payment_method_dalenys label {
+    vertical-align: super;
+}
+
+.payment_method_dalenys p {
+    margin-bottom: 14px !important;
+}
+
+/* Hosted fields auto set class */
+.payment_method_dalenys .hosted-fields-invalid-state {
+    border: 2px solid red;
+}
+
+.payment_method_dalenys .hosted-fields-valid-state {
+    border: 2px solid green;
+}
